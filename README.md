@@ -1,6 +1,6 @@
 # Web3-Genes :  USER ONBOARDING WEB APPLICATION
 
-#Technologies Used: Node.js, Express.js, MongoDB, Mongoose, React.js, JWT authentication
+# Technologies Used: Node.js, Express.js, MongoDB, Mongoose, React.js, JWT authentication
  
  Developed a user onboarding web application, integrating
  Node.js backend, MongoDB database, and React.js
