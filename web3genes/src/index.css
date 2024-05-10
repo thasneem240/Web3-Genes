@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: blue;
+}
+.navbar h1 {
+  color: #f1356d;
+  margin-left: 50px;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.navbar .searchbox {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.search-box {
+  position: relative;
+}
+
+.onboarding-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; Ensure the onboarding-page takes up the full height of the viewport */
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-right: 20px;
+  width: 250px;
+}
+
+.button-group {
+  margin-top: 30px;
+}
+
+.buton-field{
+  width: 110px;
+}
+
+.toast-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #8a2be2;;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+
